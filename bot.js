@@ -778,16 +778,16 @@ client7.login(process.env.BOT7_TOKEN);
 client8.login(process.env.BOT8_TOKEN);
 client9.login(process.env.BOT9_TOKEN);
 client10.login(process.env.BOT10_TOKEN);
-client12.login(process.env.BOT11_TOKEN);
-client13.login(process.env.BOT12_TOKEN);
-client14.login(process.env.BOT13_TOKEN);
-client15.login(process.env.BOT14_TOKEN);
-client16.login(process.env.BOT15_TOKEN);
-client17.login(process.env.BOT16_TOKEN);
-client18.login(process.env.BOT17_TOKEN);
-client19.login(process.env.BOT18_TOKEN);
-client2o.login(process.env.BOT19_TOKEN);
-client19.login(process.env.BOT20_TOKEN);
+client11.login(process.env.BOT11_TOKEN);
+client12.login(process.env.BOT12_TOKEN);
+client13.login(process.env.BOT13_TOKEN);
+client14.login(process.env.BOT14_TOKEN);
+client15.login(process.env.BOT15_TOKEN);
+client16.login(process.env.BOT16_TOKEN);
+client17.login(process.env.BOT17_TOKEN);
+client18.login(process.env.BOT18_TOKEN);
+client19.login(process.env.BOT19_TOKEN);
+client20.login(process.env.BOT20_TOKEN);
 
 //danger.login("NDU1MzMxNjUzMzA5NTYyOTEw.Dss7Vw.G4V6-OZ9K8eTwf11xtTruj6wyQ8")
 //////////////////////////////////////////////////////////////////////////////////////////////////
