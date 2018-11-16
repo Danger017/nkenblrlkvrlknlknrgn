@@ -769,7 +769,7 @@ s.delete(3000);
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
-client2.logi(process.env.BOT2_TOKEN);
+client2.login(process.env.BOT2_TOKEN);
 client3.login(process.env.BOT3_TOKEN);
 client4.login(process.env.BOT4_TOKEN);
 client5.login(process.env.BOT5_TOKEN);
