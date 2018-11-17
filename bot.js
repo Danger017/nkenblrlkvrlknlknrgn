@@ -19,7 +19,6 @@ const Discord17 = require('discord.js');
 const Discord18 = require('discord.js');
 const Discord19 = require('discord.js');
 const Discord20 = require('discord.js');
-/*const dangers = require('discord.js');*/
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const client1 = new Discord1.Client();
 const client2 = new Discord2.Client();
@@ -41,13 +40,172 @@ const client17 = new Discord17.Client();
 const client18 = new Discord18.Client();
 const client19 = new Discord19.Client();
 const client20 = new Discord20.Client();
-
-/*const danger = new dangers.Client();*/
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "510514272229392384"; 
 var ChannelID = "510514911210897409";
 var prefix = "D";
 console.log('Fucck Off.. Online.');
+//////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client2.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client3.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client4.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client5.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client6.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client7.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client8.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client9.on('message', message => {
+    if(!0.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client10.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client11.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client12.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client13.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client14.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client15.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client16.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client17.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client18.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client19.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client20.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
     
@@ -483,9 +641,6 @@ client19.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twi
 client20.on('ready', () => {
 client20.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
 });
-/*danger.on('ready', () => {
-danger.user.setActivity(`Broken heart's contentious`, {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
-});*/
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
           if (message.author.bot) return;
@@ -788,8 +943,6 @@ client17.login(process.env.BOT17_TOKEN);
 client18.login(process.env.BOT18_TOKEN);
 client19.login(process.env.BOT19_TOKEN);
 client20.login(process.env.BOT20_TOKEN);
-
-//danger.login("NDU1MzMxNjUzMzA5NTYyOTEw.Dss7Vw.G4V6-OZ9K8eTwf11xtTruj6wyQ8")
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
