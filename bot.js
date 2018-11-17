@@ -111,7 +111,7 @@ client8.on('message', message => {
     }
 });
 client9.on('message', message => {
-    if(!0.channel.guild) return;
+    if(!message.channel.guild) return;
     if (message.author.bot) return;
     if(message.content.startsWith(prefix + "ping")) {
     message.delete(3000);
