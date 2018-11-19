@@ -288,7 +288,7 @@ client10.on('ready', () => {
     });
        client14.on('ready', () => {
     function timerFunc() {
-        client15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client14.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
@@ -322,9 +322,9 @@ client10.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
     });
-       client11.on('ready', () => {
+       client20.on('ready', () => {
     function timerFunc() {
-        client11.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
