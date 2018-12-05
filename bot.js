@@ -651,7 +651,7 @@ client14.user.setStatus('dnd')
 });
 client15.on('ready', () => {
 client15.user.setActivity('Fucck Off..', {type: "WATCHING"});
-clien15.user.setStatus('dnd')
+client15.user.setStatus('dnd')
 });
 client16.on('ready', () => {
 client16.user.setActivity('Fucck Off..', {type: "WATCHING"});
@@ -659,7 +659,7 @@ client16.user.setStatus('dnd')
 });
 client17.on('ready', () => {
 client17.user.setActivity('Fucck Off..', {type: "WATCHING"});
-clien17.user.setStatus('dnd')
+client17.user.setStatus('dnd')
 });
 client18.on('ready', () => {
 client18.user.setActivity('Fucck Off..', {type: "WATCHING"});
