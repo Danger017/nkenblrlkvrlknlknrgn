@@ -584,64 +584,63 @@ s.delete(3000);
 client1.on('ready', () => {
 client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client2.on('ready', () => {
+client2.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client3.on('ready', () => {
+client3.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client4.on('ready', () => {
+client4.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client5.on('ready', () => {
+client5.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client6.on('ready', () => {
+client6.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client7.on('ready', () => {
+client7.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client8.on('ready', () => {
+client8.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client9.on('ready', () => {
+client9.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client10.on('ready', () => {
+client10.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client11.on('ready', () => {
+client11.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client12.on('ready', () => {
+client12.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client13.on('ready', () => {
+client13.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client14.on('ready', () => {
+client14.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client15.on('ready', () => {
+client15.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client16.on('ready', () => {
+client16.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client17.on('ready', () => {
+client17.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client18.on('ready', () => {
+client18.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client19.on('ready', () => {
+client19.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
 client20.on('ready', () => {
 client20.user.setActivity('Fucck Off..', {type: "WATCHING"});
 });
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
           if (message.author.bot) return;
