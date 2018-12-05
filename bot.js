@@ -595,63 +595,83 @@ s.delete(3000);
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client1.user.setStatus('dnd')
 });
 client2.on('ready', () => {
 client2.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client2.user.setStatus('dnd')
 });
 client3.on('ready', () => {
 client3.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client3.user.setStatus('dnd')
 });
 client4.on('ready', () => {
 client4.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client4.user.setStatus('dnd')
 });
 client5.on('ready', () => {
 client5.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client5.user.setStatus('dnd')
 });
 client6.on('ready', () => {
 client6.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client6.user.setStatus('dnd')
 });
 client7.on('ready', () => {
 client7.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client7.user.setStatus('dnd')
 });
 client8.on('ready', () => {
 client8.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client8.user.setStatus('dnd')
 });
 client9.on('ready', () => {
 client9.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client9.user.setStatus('dnd')
 });
 client10.on('ready', () => {
 client10.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client10.user.setStatus('dnd')
 });
 client11.on('ready', () => {
 client11.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client11.user.setStatus('dnd')
 });
 client12.on('ready', () => {
 client12.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client12.user.setStatus('dnd')
 });
 client13.on('ready', () => {
 client13.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client13.user.setStatus('dnd')
 });
 client14.on('ready', () => {
 client14.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client14.user.setStatus('dnd')
 });
 client15.on('ready', () => {
 client15.user.setActivity('Fucck Off..', {type: "WATCHING"});
+clien15.user.setStatus('dnd')
 });
 client16.on('ready', () => {
 client16.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client16.user.setStatus('dnd')
 });
 client17.on('ready', () => {
 client17.user.setActivity('Fucck Off..', {type: "WATCHING"});
+clien17.user.setStatus('dnd')
 });
 client18.on('ready', () => {
 client18.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client18.user.setStatus('dnd')
 });
 client19.on('ready', () => {
 client19.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client19.user.setStatus('dnd')
 });
 client20.on('ready', () => {
 client20.user.setActivity('Fucck Off..', {type: "WATCHING"});
+client20.user.setStatus('dnd')
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
