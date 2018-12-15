@@ -591,66 +591,7 @@ s.delete(3000);
 }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on('ready', () => {
-client1.user.setStatus('dnd')
-});
-client2.on('ready', () => {
-client2.user.setStatus('dnd')
-});
-client3.on('ready', () => {
-client3.user.setStatus('dnd')
-});
-client4.on('ready', () => {
-client4.user.setStatus('dnd')
-});
-client5.on('ready', () => {
-client5.user.setStatus('dnd')
-});
-client6.on('ready', () => {
-client6.user.setStatus('dnd')
-});
-client7.on('ready', () => {
-client7.user.setStatus('dnd')
-});
-client8.on('ready', () => {
-client8.user.setStatus('dnd')
-});
-client9.on('ready', () => {
-client9.user.setStatus('dnd')
-});
-client10.on('ready', () => {
-client10.user.setStatus('dnd')
-});
-client11.on('ready', () => {
-client11.user.setStatus('dnd')
-});
-client12.on('ready', () => {
-client12.user.setStatus('dnd')
-});
-client13.on('ready', () => {
-client13.user.setStatus('dnd')
-});
-client14.on('ready', () => {
-client14.user.setStatus('dnd')
-});
-client15.on('ready', () => {
-client15.user.setStatus('dnd')
-});
-client16.on('ready', () => {
-client16.user.setStatus('dnd')
-});
-client17.on('ready', () => {
-client17.user.setStatus('dnd')
-});
-client18.on('ready', () => {
-client18.user.setStatus('dnd')
-});
-client19.on('ready', () => {
-client19.user.setStatus('dnd')
-});
-client20.on('ready', () => {
-client20.user.setStatus('dnd')
-});
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
           if (message.author.bot) return;
