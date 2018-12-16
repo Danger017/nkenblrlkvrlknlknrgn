@@ -46,26 +46,26 @@ var ChannelID = "510514911210897409";
 var prefix = "D";
 console.log('Fucck Off.. Online.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var prefix1 = "1";
-var prefix2 = "2";
-var prefix3 = "3";
-var prefix4 = "4";
-var prefix5 = "5";
-var prefix6 = "6";
-var prefix7 = "7";
-var prefix8 = "8";
-var prefix9 = "9";
-var prefix10 = "10";
-var prefix11 = "11";
-var prefix12 = "12";
-var prefix13 = "13";
-var prefix14 = "14";
-var prefix15 = "15";
-var prefix16 = "16";
-var prefix17 = "17";
-var prefix18 = "18";
-var prefix19 = "19";
-var prefix20 = "20";
+var prefix1 = "01";
+var prefix2 = "02";
+var prefix3 = "03";
+var prefix4 = "04";
+var prefix5 = "05";
+var prefix6 = "06";
+var prefix7 = "07";
+var prefix8 = "08";
+var prefix9 = "09";
+var prefix10 = "010";
+var prefix11 = "011";
+var prefix12 = "012";
+var prefix13 = "013";
+var prefix14 = "014";
+var prefix15 = "015";
+var prefix16 = "016";
+var prefix17 = "017";
+var prefix18 = "018";
+var prefix19 = "019";
+var prefix20 = "020";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -874,6 +874,67 @@ s.delete(3000);
 }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on("error", function(err) {
+ return console.log(err);
+});
+client2.on("error", function(err) {
+ return console.log(err);
+});
+client3.on("error", function(err) {
+ return console.log(err);
+});
+client4.on("error", function(err) {
+ return console.log(err);
+});
+client5.on("error", function(err) {
+ return console.log(err);
+});
+client6.on("error", function(err) {
+ return console.log(err);
+});
+client7.on("error", function(err) {
+ return console.log(err);
+});
+client8.on("error", function(err) {
+ return console.log(err);
+});
+client9.on("error", function(err) {
+ return console.log(err);
+});
+client10.on("error", function(err) {
+ return console.log(err);
+});
+client11.on("error", function(err) {
+ return console.log(err);
+});
+client12.on("error", function(err) {
+ return console.log(err);
+});
+client13.on("error", function(err) {
+ return console.log(err);
+});
+client14.on("error", function(err) {
+ return console.log(err);
+});
+client15.on("error", function(err) {
+ return console.log(err);
+});
+client16.on("error", function(err) {
+ return console.log(err);
+});
+client17.on("error", function(err) {
+ return console.log(err);
+});
+client18.on("error", function(err) {
+ return console.log(err);
+});
+client19.on("error", function(err) {
+ return console.log(err);
+});
+client20.on("error", function(err) {
+ return console.log(err);
+});  
+//////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
 client2.login(process.env.BOT2_TOKEN);
 client3.login(process.env.BOT3_TOKEN);
@@ -895,83 +956,3 @@ client18.login(process.env.BOT18_TOKEN);
 client19.login(process.env.BOT19_TOKEN);
 client20.login(process.env.BOT20_TOKEN);
 //////////////////////////////////////////////////////////////////////////////////////////////////
-
-/*
-//////////////////////////////////////////////////////////////////////////////////////////////////
-const Discord1 = require('discord.js');
-const Discord2 = require('discord.js');
-//////////////////////////////////////////////////////////////////////////////////////////////////
-const client1 = new Discord1.Client();
-const client2 = new Discord2.Client();
-//////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "Server ID You Use."; 
-var ChannelID = "Chanel ID You Use.";
-var prefix = "d";
-console.log('Fucck Off.. Online.');
-//////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
-});
-client2.on('ready', () => {
-client2.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client2.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on('ready', () => {
-client1.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
-});
-client2.on('ready', () => {
-client2.user.setActivity('Fucck Off..', {type: "STREAMING",url: "http://www.twitch.tv/dangernumber17"});
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!455331653309562910>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!455331653309562910>').then(s => {
-s.delete(3000);
-});
-}
-});
-client2.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!455331653309562910>').then(s => {
-s.delete(3000);
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
-client1.login("Token 1.");
-client2.login("Token 2.");
-*/
