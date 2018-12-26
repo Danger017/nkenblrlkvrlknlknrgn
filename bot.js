@@ -19,6 +19,11 @@ const Discord17 = require('discord.js');
 const Discord18 = require('discord.js');
 const Discord19 = require('discord.js');
 const Discord20 = require('discord.js');
+const Discord21 = require('discord.js');
+const Discord22 = require('discord.js');
+const Discord23 = require('discord.js');
+const Discord24 = require('discord.js');
+const Discord25 = require('discord.js');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const client1 = new Discord1.Client();
 const client2 = new Discord2.Client();
@@ -40,6 +45,11 @@ const client17 = new Discord17.Client();
 const client18 = new Discord18.Client();
 const client19 = new Discord19.Client();
 const client20 = new Discord20.Client();
+const client21 = new Discord21.Client();
+const client22 = new Discord22.Client();
+const client23 = new Discord23.Client();
+const client24 = new Discord24.Client();
+const client25 = new Discord25.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "510514272229392384"; 
 var ChannelID = "510514911210897409";
@@ -66,9 +76,12 @@ var prefix17 = "017";
 var prefix18 = "018";
 var prefix19 = "019";
 var prefix20 = "020";
-
+var prefix21 = "021";
+var prefix22 = "022";
+var prefix23 = "023";
+var prefix24 = "024";
+var prefix25 = "025";
 //////////////////////////////////////////////////////////////////////////////////////////////////
-
 client1.on('message', message => {
     if(!message.channel.guild) return;
     if (message.author.bot) return;
@@ -229,6 +242,46 @@ client20.on('message', message => {
     message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
     }
 });
+client21زon('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client22.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client23.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client24.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
+client25.on('message', message => {
+    if(!message.channel.guild) return;
+    if (message.author.bot) return;
+    if(message.content.startsWith(prefix + "ping")) {
+    message.delete(3000);
+    message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
+    }
+});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
     
@@ -348,6 +401,36 @@ client10.on('ready', () => {
        client20.on('ready', () => {
     function timerFunc() {
         client20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+       client21.on('ready', () => {
+    function timerFunc() {
+        client21.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+       client22.on('ready', () => {
+    function timerFunc() {
+        client22.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+       client23.on('ready', () => {
+    function timerFunc() {
+        client23.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+       client24.on('ready', () => {
+    function timerFunc() {
+        client24.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+       client25.on('ready', () => {
+    function timerFunc() {
+        client25.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
@@ -873,6 +956,76 @@ s.delete(3000);
 });
 }
 });
+client21.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+}
+});
+client22.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+}
+});
+client23.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+}
+});
+client24.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+}
+});
+client25.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!455331653309562910>').then(s => {
+s.delete(3000);
+});
+}
+});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("error", function(err) {
  return console.log(err);
@@ -934,6 +1087,21 @@ client19.on("error", function(err) {
 client20.on("error", function(err) {
  return console.log(err);
 });  
+client21.on("error", function(err) {
+ return console.log(err);
+});  
+client22.on("error", function(err) {
+ return console.log(err);
+});  
+client23.on("error", function(err) {
+ return console.log(err);
+});  
+client24.on("error", function(err) {
+ return console.log(err);
+});  
+client25.on("error", function(err) {
+ return console.log(err);
+});  
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
 client2.login(process.env.BOT2_TOKEN);
@@ -955,4 +1123,9 @@ client17.login(process.env.BOT17_TOKEN);
 client18.login(process.env.BOT18_TOKEN);
 client19.login(process.env.BOT19_TOKEN);
 client20.login(process.env.BOT20_TOKEN);
+client21.login(process.env.BOT21_TOKEN);
+client22.login(process.env.BOT22_TOKEN);
+client23.login(process.env.BOT23_TOKEN);
+client24.login(process.env.BOT24_TOKEN);
+client25.login(process.env.BOT25_TOKEN);
 //////////////////////////////////////////////////////////////////////////////////////////////////
