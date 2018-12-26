@@ -242,7 +242,7 @@ client20.on('message', message => {
     message.channel.sendMessage(`Ping : ${Date.now() - message.createdTimestamp}.`)
     }
 });
-client21زon('message', message => {
+client21.on('message', message => {
     if(!message.channel.guild) return;
     if (message.author.bot) return;
     if(message.content.startsWith(prefix + "ping")) {
