@@ -51,8 +51,8 @@ const client23 = new Discord23.Client();
 const client24 = new Discord24.Client();
 const client25 = new Discord25.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "510514272229392384"; 
-var ChannelID = "510514911210897409";
+var ServerID = "527286296033624085"; 
+var ChannelID = "527287253832171551";
 var prefix = "D";
 console.log('Fucck Off.. Online.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
