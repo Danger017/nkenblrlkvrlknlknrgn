@@ -442,7 +442,9 @@ client1.on("message", message => {
 message.delete(3000);
     if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1).join(" ");
-message.channel.send(args);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
 }
 });
 client2.on("message", message => {
